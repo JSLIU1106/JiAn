@@ -1,4 +1,3 @@
-JiAn Camera
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -74,7 +73,12 @@ button {
 </head>
 <body>
 
-   <!DOCTYPE html> <html lang="zh-TW"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>打卡相機</title> <style> .camera-box { position: relative; width: 100%; max-width: 400px; } video { width: 100%; } #filter-overlay { position: absolute; top: 0; left: 0; width: 100%; pointer-events: none; } </style> </head> <body> <h2>吉安圳-不尽(盡)跌水井打卡點</h2> <div class="camera-box"> <video id="video" autoplay playsinline muted></video> <img id="filter-overlay" src="1150708_創意構想_AR實景_吉安圳拍照打卡框.png"> </div> <button onclick="startCamera()">開啟相機</button> <script> async function startCamera() { try { const video = document.getElementById("video"); const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" // 比較穩定 }, audio: false }); video.srcObject = stream; } catch (err) { alert("無法開啟相機：" + err.message); console.error(err); } } </script> </body> </html>
+    <h2>吉安圳-不尽(盡)跌水井打卡點</h2>
+
+    <div class="camera-box">
+        <video id="video" autoplay playsinline muted></video>
+        <img id="filter-overlay" src="1150708_創意構想_AR實景_吉安圳拍照打卡框.png" alt="濾鏡圖層">
+    </div>
 
 <div class="controls">
     <button id="toggleCamera">🔄 切換前後鏡頭</button>

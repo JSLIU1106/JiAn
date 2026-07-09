@@ -73,7 +73,7 @@ button {
 </head>
 <body>
 
-    <h2>吉安圳-不尽(盡)跌水井打卡點</h2>
+    <h2>吉安圳--不尽(盡)跌水井打卡點</h2>
 
     <div class="camera-box">
         <video id="video" autoplay playsinline muted></video>

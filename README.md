@@ -1,5 +1,3 @@
-[SC.html](https://github.com/user-attachments/files/29838282/SC.html)
-<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">

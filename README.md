@@ -1,4 +1,4 @@
-[SC.html](https://github.com/user-attachments/files/29836839/SC.html)
+
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
